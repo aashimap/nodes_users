@@ -44,7 +44,6 @@ router.put("/:id", (req, res) => {
   user.name = updateData.name;
   return res.json(users);
 });
-
 router.delete("/", (req, res) => {
   users = [];
   return res.json(users);
